@@ -8,6 +8,8 @@ public class Switch {
         Scanner sc = new Scanner(System.in);
         int note = sc.nextInt();
 
+        System.out.println("Hello world");
+
         switch (note) {
             case 1 -> System.out.println("sehr gut");
             case 2 -> System.out.println("gut");
@@ -15,6 +17,8 @@ public class Switch {
             case 4 -> System.out.println("genügend");
             case 5 -> System.out.println("nicht genügend");
             default -> System.out.println("Falsche Eingabe!");
+
+
         }
     }
 }
