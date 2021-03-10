@@ -3,16 +3,16 @@ package com.company;
 public class ForLoop2Try {
     public static void main(String[] args) {
 
-        int a = 10, b = 0;
+        int ergebnis = 0;
+        int counter = 1;
 
-        for(int i = 1; i <= a; ++i)
-        {
-
-            b += i;
+        while (1000 >= counter) {
+            ergebnis += counter;
+            counter++;
         }
-
-        System.out.println("Summe ist  = " + b);
+        System.out.println(ergebnis);
     }
+
 }
 
 
